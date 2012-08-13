@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" manifest="manifest.appcache">
+<head>
+    <title>a</title>
+</head>
+<body>
+    <script src="js/libs/yepnope.js"></script>
+    <script>
+        yepnope([{
+            load: 'js/libs/lscache.js',
+            callback:function () {
+                console.log('lscache is loaded');
+            }
+            },{
+            load: 'js/version.js',
+            callback: function (url, result, key) {
+                console.log('version is loaded');
+                appversion.check();
+            }
+        }]);
+    </script>
+</body>
+</html>

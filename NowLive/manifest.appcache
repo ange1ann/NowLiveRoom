@@ -1,0 +1,26 @@
+CACHE MANIFEST
+
+# version 201208101249
+
+CACHE:
+# html files
+
+
+# css files
+
+
+
+# js files
+js\libs\yepnope.js
+js\libs\jquery-1.7.2.min.js
+js\libs\ember-1.0.pre.js
+js\libs\handlebars-1.0.0.beta.6.js
+js\libs\lscache.js
+js\app.js
+
+# image files
+
+FALLBACK:
+
+NETWORK:
+
